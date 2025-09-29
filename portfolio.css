@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: bodoni;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #d8d8da;
+}
+
+@font-face {
+    font-family: 'bodoni';
+    src: url("BodoniFLF-Roman.ttf");
+}
+
+#header{
+    color: white;
+    height: 20%;
+    text-align: center;
+    align-items: center;
+    background-color: #1a2433;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p{
+        font-style: italic;
+        font-size: 25px;
+    }
+    h1{
+        font-size: 50px;
+    }
+}
+
+#aboutMe{
+    font-size: 20px;
+}
+
+.ot{
+    width: 80%;
+    /*display: flex;*/
+    text-align: center;
+    flex-direction: column; /* vertical stack of h1 and p */
+    justify-content: center; /* vertical centering inside .ot */
+    align-items: center;     /* horizontal centering inside .ot */
+    margin: 2% auto 0 auto; /* top margin 5%, left/right auto to center */
+    padding: 20px;
+    h1{
+        font-size: 35px;
+        margin-bottom: 10px;
+        margin-top: 25px
+    }
+}
+
+#project{
+    font-style: italic;
+}
+
+#footer{
+    background-color: #161e2c;
+    color: white;
+    margin-top: 5%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 15px
+}
+
+.largeBox{
+    background-color: white;
+    width: 75%;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    p{
+        font-size: 25px;
+    }
+}
+
+.mediumBox{
+    background-color: white;
+    width: 65%;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    p{
+        font-size: 25px;
+    }
+}
+
+#aboutMeBg{
+    background-color: white;
+}
+
+#educationBg{
+    background-color: #dbefff;
+}
+
+#skillBg{
+    background-color: #fef1bf;
+    p{
+        font-weight: bold;
+    }
+}
+
+#projectsBg{
+    background-color: #eae6fe;
+}
+
+#contactBg{
+    background-color: #d5fae1;
+}
+
+.title{
+    font-size: 20px;
+}
